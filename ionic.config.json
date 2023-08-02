@@ -1,0 +1,7 @@
+{
+  "name": "ionic-nuxt-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "custom"
+}

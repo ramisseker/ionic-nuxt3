@@ -1,0 +1,83 @@
+{
+  "vetur.validation.template": false,
+  "vetur.validation.script": false,
+  "vetur.validation.style": false,
+  "volar.icon.preview": true,
+  "editor.formatOnSave": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "i18n-ally.localesPaths": ["src/locales"],
+  "i18n-ally.sourceLanguage": "tr",
+  "i18n-ally.displayLanguage": "tr",
+  "i18n-ally.keystyle": "nested",
+  "editor.tabCompletion": "on",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.minimap.enabled": true,
+  "editor.wordWrapColumn": 100,
+  "editor.inlineSuggest.enabled": true,
+  "files.autoSave": "onFocusChange",
+  "javascript.format.enable": true,
+  "files.eol": "\n",
+  "eslint.run": "onType",
+  "eslint.alwaysShowStatus": true,
+  "git.autofetch": true,
+  "window.title": "${rootName}${separator}${activeEditorShort}",
+  "breadcrumbs.enabled": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "vue": "html"
+  },
+  "eslint.validate": [
+    "css",
+    "javascript",
+    "javascriptreact",
+    "vue",
+    "vue-html"
+  ],
+  "editor.wordWrap": "on",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "workbench.statusBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "git.enableSmartCommit": true,
+  "explorer.confirmDelete": false,
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "vue",
+    "javascriptreact": "jsx",
+    "javascript": "js",
+    "typescript": "jsx",
+    "typescriptreact": "tsx"
+  },
+  "liveServer.settings.port": 5501,
+  "editor.suggestSelection": "first",
+  "explorer.confirmDragAndDrop": false,
+  "eslint.workingDirectories": [
+    {
+      "mode": "auto"
+    }
+  ],
+  "editor.accessibilitySupport": "off",
+  "editor.guides.bracketPairs": "active",
+  "stylelint.validate": [
+    "css",
+    "less",
+    "postcss",
+    "vue" // necessary for stylelint diagnostics in .vue <style> tag
+  ]
+}
